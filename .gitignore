@@ -1,4 +1,4 @@
-/url/cache
+1/url/cache
 /.emacs.desktop
 /auto-save-list
 /.session
@@ -40,3 +40,4 @@ site-lisp/package/
 /ido.last
 /recentf
 /viper
+.directory
