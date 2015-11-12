@@ -99,6 +99,8 @@
 (require 'init-rails)
 (require 'init-sql)
 
+(require 'init-abbrevs)
+
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-slime)
