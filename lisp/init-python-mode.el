@@ -14,6 +14,15 @@
   "from IPython.core.completerlib import module_completion"
   python-shell-completion-module-string-code
   "';'.join(module_completion('''%s'''))\n"
+(when (maybe-require-package 'anaconda-mode)
+  (after-load 'python
+    (add-hook 'python-mode-hook 'anaconda-mode)
+    (add-hook 'python-mode-hook 'anaconda-eldoc-mode))
+  (when (maybe-require-package 'company-anaconda)
+    (after-load 'company
+      (add-hook 'python-mode-hook
+                (lambda () (sanityinc/local-push-company-backend 'company-anaconda))))))
+
   python-shell-completion-string-code
   "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
 

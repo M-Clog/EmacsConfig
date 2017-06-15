@@ -1,7 +1,9 @@
-1/url/cache
+/url/cache
 /.emacs.desktop
 /auto-save-list
+/network-security.data
 /.session
+/session.*
 /custom.el
 *.elc
 CVS
@@ -18,6 +20,7 @@ cookies
 /ac-comphist.dat
 \#*
 /elpa
+/elpa-*
 site-lisp/package/
 /swank
 /.mc-lists.el
@@ -42,3 +45,8 @@ site-lisp/package/
 /viper
 .directory
 private.el
+/projectile-bookmarks.eld
+/anaconda-mode/
+/.historian
+/.uptimes.el
+/rake.cache
