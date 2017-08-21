@@ -82,7 +82,7 @@
 (require 'init-projectile)
 
 (require 'init-compile)
-(require 'init-crontab)
+;;(require 'init-crontab)
 (require 'init-textile)
 (require 'init-markdown)
 (require 'init-csv)
@@ -101,6 +101,7 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
+(require-package 'toml-mode)
 
 (require 'init-abbrevs)
 
