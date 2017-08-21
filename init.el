@@ -92,7 +92,7 @@
 (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
-(require 'init-css)
+;(require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
 (unless (version<= emacs-version "24.3")
