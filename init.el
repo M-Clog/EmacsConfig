@@ -49,11 +49,6 @@
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-(require-package 'wgrep)
-;; (require-package 'project-local-variables)
-=======
->>>>>>> upstream/master
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'command-log-mode)
@@ -63,7 +58,7 @@
 (require 'init-themes)
 (require 'init-osx-keys)
 (require 'init-gui-frames)
-;; (require 'init-dired)
+(require 'init-dired)
 (require 'init-isearch)
 (require 'init-grep)
 (require 'init-uniquify)
@@ -101,7 +96,7 @@
 (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
-;(require 'init-css)
+(require 'init-css)
 (require 'init-haml)
 (require 'init-http)
 (require 'init-python)
@@ -118,8 +113,6 @@
 (require 'init-terraform)
 ;;(require 'init-nix)
 (maybe-require-package 'nginx-mode)
-
-(require 'init-abbrevs)
 
 (require 'init-paredit)
 (require 'init-lisp)
