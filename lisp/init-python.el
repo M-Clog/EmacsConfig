@@ -21,22 +21,12 @@
 
 (provide 'init-python)
 ;;; init-python.el ends here
- python-shell-prompt-regexp "In \\[[0-9]+\\]: "
- python-shell-prompt-output-regexp "Out\\[[0-9]+\\]: "
- python-shell-completion-setup-code
- "from IPython.core.completerlib import module_completion"
- python-shell-completion-module-string-code
- "';'.join(module_completion('''%s'''))\n"
 
- python-shell-completion-string-code
- "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
-
-(setenv "IPY_TEST_SIMPLE_PROMPT" "1")
 ;;; ELPY
 (elpy-enable)
 
 ;;; EIN -- not working right now
-(require 'ein)
+;; (require 'ein)
 
 
 (provide 'init-python-mode)

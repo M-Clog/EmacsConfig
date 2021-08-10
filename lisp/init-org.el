@@ -398,7 +398,7 @@ typical word processor."
      (python . t)
      (ruby . t)
      (screen . nil)
-     (,(if (locate-library "ob-sh") 'sh 'shell) . t)
+     (shell . t)
      (sql . t)
      (sqlite . t))))
 
@@ -1263,7 +1263,7 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
          (ruby . t)
          (gnuplot . t)
          (clojure . t)
-         (sh . t)
+         (shell . t)
          (ledger . t)
          (org . t)
          (plantuml . t)
